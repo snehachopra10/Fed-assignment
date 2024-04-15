@@ -1,0 +1,46 @@
+
+.gifs{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    border:2px solid black;
+    padding:5px;
+    margin:5px 120px 120px 120px;
+    background-color: #ffff;
+}
+
+#heading{
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 0.1cap;
+    text-align:center;
+    font-weight:500px;
+    font-size:60px;
+
+}
+#images{
+    margin:10px;
+    width:400px;
+    height:250px;
+    border:1px solid white;
+}
+
+ input{
+    padding:10px;
+    height:30px;
+    border-radius:20px;
+    width:250px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#result_type,#searchbox{
+    margin-left:120px;
+}
+
+#heading,#result_type{
+    color:white;
+}
